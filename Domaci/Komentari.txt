@@ -1,0 +1,14 @@
+Pozdrav, evgenija014 :)
+
+Domaci na oko izgleda lepo uradjeno, u sva tri fajla. Vidim da ste koristili i elemente koje nismo radili na predavanjima i to apsolutno podrzavam, ali je neophodno da dobro proucite kada,kako i u koje svrhe se koriste odredjeni elementi. Nema mnogo gresaka, vise sugestija za dalji rad:
+
+1) font-weight ne prihvata vrednost 120, tu se prihvataju opisne vrednosti
+2) u dosta elemenata koristite inline css, odnosno definisete stilove unutar taga, sto nije pogresno, ali je primer dobre prakse koristiti css dokumente za to
+3) <link> tagovi treba da budu unutar <head> taga
+4) koristili ste <ul> i <ol> element, ali ne na pravi nacin. Naime, kao prvi naslednici <ul> taga se korister <li> elementi unutar kojih mozete stavljati druge elemente,kao sto su <p> <a> <hr> <br> i slicno. Ali o tome cemo pricati na sledecem casu tako da vam to i nije neka greska :)
+5) Vodite racuna o otvorenim i zatvorenim tagovima. Tako npr zatvarate </p> tag a ne postoji pripadajuci otvoreni <p> tag. Takodje, <footer> element mora da bude u okviru <body> taga, kao i svi drugi html elementi koji se prikazuju na strani. Generalno, svaki otvoren tag, za elemente koji nisu samozatvarajuci mora imati svoj zatvoreni tag. Kod vas to nije uticalo na izgled strane jer su danasnji browseri pametni, ali generalno, kod komplikovanih kodova moze da napravi probleme. 
+
+Sve u svemu, lepo zamisljen zadatak, i dobro iskoriscena vecina elemenata koje smo radili. Greske se odnose na nove elemente koje ste sami istrazivali, tako da nemam zamerki,a nove stvari cete videti koliko sutra na casu :)
+
+Pozdrav
+Damjan
