@@ -1,0 +1,11 @@
+p {
+	color: black;
+	background-color: #F5f495;
+	font-size: 90%;
+	font-family: Arial;
+	font-style: normal;
+	font-variant: inherit;
+	font-weight: 120;
+	outline-style: dotted;
+    outline-color: black;
+}
