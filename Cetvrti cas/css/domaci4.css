@@ -1,0 +1,33 @@
+div {
+	margin: auto;
+    padding: 10px; 
+}
+img {
+	float: left;
+	margin-top: 25px;
+}
+.zaglavlje {
+	font-family: 'Barrio', cursive;
+	font-size: 25px;
+	width: 50%;
+    border: 3px solid green;
+    border-radius: 25%;
+    margin-left: 300px;
+    text-align: center;
+  }
+img {
+	clear: left;
+}
+.sekcija1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+}
+.tekst {
+	margin-left: 10px;
+}
+.opis {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	color: red;
+
+}
